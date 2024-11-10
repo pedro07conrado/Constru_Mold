@@ -8,7 +8,7 @@ class UsersAdmin(admin_auth_django.UserAdmin):
     form = UserChangeForm
     add_form = UserCreationForm
     model = Users
-    fildesets = admin_auth_django.UserAdmin.fieldsets + (
+    fildsets = admin_auth_django.UserAdmin.fieldsets + (
         ('cargo', {'fields': ('cargo',)}),
     )
 
