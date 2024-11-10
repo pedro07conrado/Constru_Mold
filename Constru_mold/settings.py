@@ -127,3 +127,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 #config auth 
 AUTH_USER_MODEL = 'usuarios.Users'
+
+# Role permissions
+
+ROLEPERMISSIONS_MODULE = 'Constru_mold.roles'
