@@ -7,6 +7,6 @@ from rolepermissions.roles import assign_role
 def define_permissoes(sender, instance, created, **Kwargs):
     if created: 
         if instance.cargo == "V":
-            assign_role(instance, 'Vendedor')
+            assign_role(instance, 'vendedor')
         elif instance.cargo == "G":
             assign_role(instance, 'gerente')
