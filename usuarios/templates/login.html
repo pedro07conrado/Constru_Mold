@@ -2,7 +2,7 @@
 
 {% block 'body' %}
     <div class="container">
-        <form action="{% url 'Login' %}" method="POST">{% csrf_token %}
+        <form action="{% url 'login' %}" method="POST">{% csrf_token %}
            <br>
             <label>E-mail</label>
             <input type="email" placeholder="Digite seu Email" name="email" class="">
