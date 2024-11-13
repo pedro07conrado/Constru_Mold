@@ -4,8 +4,9 @@ Sistema de gestão de estoque para um deposito de matérias de construção  �
 ## Tecnologias
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" width="200"/>
 </p>
+
 
 > [!IMPORTANT]
 > Se ainda não tiver o python instalado no seu sistema, execute
@@ -26,3 +27,17 @@ Sistema de gestão de estoque para um deposito de matérias de construção  �
    ```
    pip install -r requirements.txt
    ```
+>**Caso o arquivo requirements.txt não esteja presente, você pode instalar o Django e outras bibliotecas manualmente**
+>```bash
+>pip install django
+>```
+
+## Configure o banco de dados executando as migrações iniciais
+```bash
+python manage.py migrate
+```
+
+# *E finalmente rode a aplicação*
+```
+python manage.py runserver
+```
