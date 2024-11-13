@@ -12,11 +12,11 @@ Sistema de gestão de estoque para um deposito de matérias de construção  �
 >```
 >sudo apt install python3-venv
 >```
-Crie um ambiente virtual, para isolar as dependências do projeto:
-```
-python3 -m venv venv
-```
-executando o ambiente virtual
-```
-source venv/bin/activate
-```
+>Crie um ambiente virtual, para isolar as dependências do projeto:
+>```
+>python3 -m venv venv
+>```
+>executando o ambiente virtual
+>```
+>source venv/bin/activate
+>```
