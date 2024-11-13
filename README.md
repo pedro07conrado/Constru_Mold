@@ -20,3 +20,9 @@ Sistema de gestão de estoque para um deposito de matérias de construção  �
 >```
 >source venv/bin/activate
 >```
+
+ ## Instale o Django e outras dependências listadas no arquivo `requirements.txt`
+   
+   ```
+   pip install -r requirements.txt
+   ```
